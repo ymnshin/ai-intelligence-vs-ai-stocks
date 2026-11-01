@@ -1,0 +1,55 @@
+section,series,asset,timing_or_window,statistic,estimate,n,p_value,note
+correlation,ECI,NVDA,contemporaneous,pearson_r,0.110750556134148,44,0.47418070454194194,
+correlation,ECI,NVDA,contemporaneous,spearman_rho,0.06643648992284464,44,0.6683038477128549,
+correlation,ECI,NVDA,intelligence_leads_1m,pearson_r,-0.13591307506197925,43,0.3848352000151951,
+correlation,ECI,NVDA,intelligence_leads_1m,spearman_rho,0.011296431681528453,43,0.9426853993534596,
+correlation,ECI,NVDA,intelligence_lags_1m,pearson_r,-0.20424739398761435,43,0.18892272234862695,
+correlation,ECI,NVDA,intelligence_lags_1m,spearman_rho,-0.09753186759535103,43,0.533810703597154,
+correlation,ECI,SOX,contemporaneous,pearson_r,0.09901441087793632,44,0.5225277600357502,
+correlation,ECI,SOX,contemporaneous,spearman_rho,0.12226809413030562,44,0.42914265528025386,
+correlation,ECI,SOX,intelligence_leads_1m,pearson_r,-0.15441368219399085,43,0.3228260251416098,
+correlation,ECI,SOX,intelligence_leads_1m,spearman_rho,0.019851817440333087,43,0.8994521240493432,
+correlation,ECI,SOX,intelligence_lags_1m,pearson_r,-0.2229458916502574,43,0.15070859096057668,
+correlation,ECI,SOX,intelligence_lags_1m,spearman_rho,-0.16979641197947123,43,0.2763532086630403,
+correlation,ECI,BASKET,contemporaneous,pearson_r,0.23919018949266763,44,0.1178815679695164,
+correlation,ECI,BASKET,contemporaneous,spearman_rho,0.23689443237746713,44,0.12155640305802472,
+correlation,ECI,BASKET,intelligence_leads_1m,pearson_r,0.023843099968764846,43,0.8793731118136019,
+correlation,ECI,BASKET,intelligence_leads_1m,spearman_rho,0.18788623870306884,43,0.2276139375712994,
+correlation,ECI,BASKET,intelligence_lags_1m,pearson_r,-0.4440231859185729,43,0.0028574811828183853,
+correlation,ECI,BASKET,intelligence_lags_1m,spearman_rho,-0.37698846231156413,43,0.012704834983299853,
+correlation,MMLU,NVDA,contemporaneous,pearson_r,0.18318024256454088,44,0.23396660911942896,
+correlation,MMLU,NVDA,contemporaneous,spearman_rho,0.12301136543594836,44,0.42632106143790804,
+correlation,MMLU,SOX,contemporaneous,pearson_r,0.06630627586172297,44,0.6689166078087878,
+correlation,MMLU,SOX,contemporaneous,spearman_rho,-0.13733285496695272,44,0.3740243678019963,
+correlation,MMLU,BASKET,contemporaneous,pearson_r,0.1822695978393728,44,0.23633999918439758,
+correlation,MMLU,BASKET,contemporaneous,spearman_rho,0.101784872023924,44,0.5108990995977858,
+regression,ECI,NVDA,monthly_ols,coef_const,0.00758100976396324,44,0.6302561697052478,"se=0.01563, t=0.485, R2=0.2149"
+regression,ECI,NVDA,monthly_ols,coef_dI,0.656133204557132,44,0.27163279080654534,"se=0.5886, t=1.11, R2=0.2149"
+regression,ECI,NVDA,monthly_ols,coef_SPX_ret,1.243120945821441,44,0.0037713120349112425,"se=0.4041, t=3.08, R2=0.2149"
+regression,ECI,NVDA,monthly_ols,coef_dUS10Y,1.1248278803297826,44,0.04234967842591716,"se=0.5364, t=2.1, R2=0.2149"
+regression,ECI,SOX,monthly_ols,coef_const,-0.008860776931146218,44,0.5134802434487813,"se=0.01344, t=-0.659, R2=0.2309"
+regression,ECI,SOX,monthly_ols,coef_dI,0.4758885997275153,44,0.3527980013948462,"se=0.5062, t=0.94, R2=0.2309"
+regression,ECI,SOX,monthly_ols,coef_SPX_ret,1.1781738132041502,44,0.0015818100811955968,"se=0.3475, t=3.39, R2=0.2309"
+regression,ECI,SOX,monthly_ols,coef_dUS10Y,0.607488223369116,44,0.19532945544693966,"se=0.4613, t=1.32, R2=0.2309"
+regression,ECI,BASKET,monthly_ols,coef_const,-0.0025785142429627047,44,0.728238843646672,"se=0.007369, t=-0.35, R2=0.4493"
+regression,ECI,BASKET,monthly_ols,coef_dI,0.7310629618811173,44,0.011942246211247943,"se=0.2776, t=2.63, R2=0.4493"
+regression,ECI,BASKET,monthly_ols,coef_SPX_ret,0.92529052614855,44,1.870670752316266e-05,"se=0.1905, t=4.86, R2=0.4493"
+regression,ECI,BASKET,monthly_ols,coef_dUS10Y,1.0106468122074013,44,0.0002690885906000626,"se=0.2529, t=4, R2=0.4493"
+surprise,ECI,NVDA,contemporaneous,pearson_r,0.11075055613414797,44,0.47418070454194194,
+surprise,ECI,NVDA,contemporaneous,spearman_rho,0.06643648992284464,44,0.6683038477128549,
+surprise,ECI,SOX,contemporaneous,pearson_r,0.09901441087793632,44,0.5225277600357502,
+surprise,ECI,SOX,contemporaneous,spearman_rho,0.12226809413030562,44,0.42914265528025386,
+surprise,ECI,BASKET,contemporaneous,pearson_r,0.2391901894926677,44,0.11788156796951604,
+surprise,ECI,BASKET,contemporaneous,spearman_rho,0.23689443237746713,44,0.12155640305802472,
+event_study,ECI,NVDA,"[-1,+5]",mean_car,0.002499418881931037,10,0.8864907460824751,mean_car t=0.147; positives=5/10
+event_study,ECI,NVDA,"[-1,+5]",median_car,-0.001986654864297943,10,,mean_car t=0.147; positives=5/10
+event_study,ECI,NVDA,"[-1,+5]",sign_test_p,1.0,10,1.0,mean_car t=0.147; positives=5/10
+event_study,ECI,NVDA,"[0,+20]",mean_car,0.02236858208276793,10,0.34075619404824475,mean_car t=1.01; positives=7/10
+event_study,ECI,NVDA,"[0,+20]",median_car,0.036947331189288946,10,,mean_car t=1.01; positives=7/10
+event_study,ECI,NVDA,"[0,+20]",sign_test_p,0.34375,10,0.34375,mean_car t=1.01; positives=7/10
+event_study,ECI,SOX,"[-1,+5]",mean_car,0.01726232171523101,10,0.16740654662321694,mean_car t=1.5; positives=8/10
+event_study,ECI,SOX,"[-1,+5]",median_car,0.029016572881309877,10,,mean_car t=1.5; positives=8/10
+event_study,ECI,SOX,"[-1,+5]",sign_test_p,0.109375,10,0.109375,mean_car t=1.5; positives=8/10
+event_study,ECI,SOX,"[0,+20]",mean_car,0.04946657714449838,10,0.028842806587021905,mean_car t=2.6; positives=8/10
+event_study,ECI,SOX,"[0,+20]",median_car,0.027669166020809044,10,,mean_car t=2.6; positives=8/10
+event_study,ECI,SOX,"[0,+20]",sign_test_p,0.109375,10,0.109375,mean_car t=2.6; positives=8/10
